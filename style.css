@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Header */
+header {
+  background-color: #ff6f61;
+  color: white;
+  padding: 20px 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+/* Main Content */
+main {
+  max-width: 600px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Lists */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #ff6f61;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Recipe Images */
+img {
+  width: 80%;
+  max-width: 400px;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+/* Back Button */
+.back {
+  display: inline-block;
+  margin: 20px 0;
+  padding: 10px 15px;
+  background-color: #ff6f61;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.back:hover {
+  background-color: #d9534f;
+}
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #ff6f61;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.about-me {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.recipes {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.recipes ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.recipes ul li {
+  margin: 10px 0;
+}
+
+.recipes ul li a {
+  text-decoration: none;
+  color: #ff6f61;
+  font-weight: bold;
+}
+
+.recipes ul li a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
